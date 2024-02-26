@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Word Scramble</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="game()">
+    <center>
+        <h1>Word Scramble</h1>
+        <div id="popup">
+            <span id="close" onclick="display()">❌</span>
+            <h3>How to play?</h3>
+            <div id="help">
+                <ul>
+                    <li>Re-arrange the characters inside the boxes to get desired word</li>
+                    <li>Hit enter to see result</li>
+                </ul>
+            </div>
+        </div>
+    </center>
+    <div id="container">
+        <center>
+            <div id="box1"></div><br><br>
+            <h2><label>Enter your guess: </label></h2>
+            <input type="text" id="input"><br><br>
+            <span id="result"></span>
+        </center>
+    </div>
+</body>
+</html>

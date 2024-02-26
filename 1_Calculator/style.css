@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 7em;
+    
+}
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+.container input{
+    font-size: large;
+    font-weight: bold;
+    min-width: 4em;
+    padding: 1em;
+    color: rgb(211, 158, 240);
+    border: 1px solid rgb(73, 37, 108);
+    border-radius: 1em;
+    background-color: black;
+    margin: .1em;
+    cursor: pointer;
+}
+#result{
+    color: rgb(230, 105, 255);
+    font-size: 2em;
+    font-weight: bold;
+    min-height: 1.2em;
+}

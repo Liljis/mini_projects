@@ -1,0 +1,38 @@
+body{
+    background-color: #5CDB95;
+    font-family: 'Courier New', Courier, monospace;
+}
+#box1{
+    font-size: xxx-large;
+    color: #8EE4AF;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+input{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#result{
+    font-size: 3rem;
+    font-weight:bolder;
+    color:#0d5f4e
+}
+h1{
+    text-decoration: underline;
+    font-size: 3rem;
+}
+#popup{
+    border: 1px solid black;
+    width: fit-content;
+    font-weight: bold;
+}
+#close{
+    display: flex;
+    justify-content: end;
+    cursor:pointer;
+}
